@@ -177,10 +177,10 @@
 
         default_layer {
             bindings = <
-&none  &kp SE_Q  &kp SE_W  &kp SE_E      &kp SE_R             &kp SE_T        &kp SE_Y   &kp SE_U             &kp SE_I        &kp SE_O    &kp SE_P         &none
-&none  &kp SE_A  &kp SE_S  &kp SE_D      &HMShftR LCTRL SE_F  &kp SE_G        &kp SE_H   &HMShftR LCTRL SE_J  &kp SE_K        &kp SE_L    &kp SE_O_UMLAUT  &none
-&none  &kp SE_Z  &kp SE_X  &kp SE_C      &kp SE_V             &kp SE_B        &kp SE_N   &kp SE_M             &kp SE_COMMA    &kp SE_DOT  &kp SE_MINUS     &none
-                           &kp LEFT_WIN  &kp LEFT_ALT         &kp SE_SPACE    &lt 2 TAB  &lt 1 ENTER          &kp LEFT_SHIFT
+&none  &kp SE_Q               &kp SE_W  &kp SE_E      &kp SE_R             &kp SE_T        &kp SE_Y   &kp SE_U             &kp SE_I        &kp SE_O    &kp SE_P         &none
+&none  &kp SE_A               &kp SE_S  &kp SE_D      &HMShftR LCTRL SE_F  &kp SE_G        &kp SE_H   &HMShftR LCTRL SE_J  &kp SE_K        &kp SE_L    &kp SE_O_UMLAUT  &none
+&none  &HMShiftL LSHIFT SE_Z  &kp SE_X  &kp SE_C      &kp SE_V             &kp SE_B        &kp SE_N   &kp SE_M             &kp SE_COMMA    &kp SE_DOT  &kp SE_MINUS     &none
+                                        &kp LEFT_WIN  &kp LEFT_ALT         &kp SE_SPACE    &lt 2 TAB  &lt 1 ENTER          &kp LEFT_SHIFT
             >;
         };
 
@@ -195,10 +195,10 @@
 
         symbol_layer {
             bindings = <
-&none  &kp SE_GRAVE  &kp SE_ACUTE  &kp SE_DQT     &kp SE_SQT       &kp SE_COLON    &kp GRAVE  &kp C_PREV    &kp C_PP    &kp C_NEXT    &kp DEL         &none
-&none  &kp ESC       &kp LPAR      &kp SE_A_RING  &kp SE_A_UMLAUT  &kp SE_PIPE     &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT     &kp RIGHT       &none
-&none  &none         &none         &kp SE_AMPS    &kp SE_EXCL      &kp SE_SEMI     &kp TILDE  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &cm RSHFT BSLH  &none
-                                   &trans         &trans           &trans          &trans     &trans        &trans
+&none  &kp SE_GRAVE    &kp SE_ACUTE  &kp SE_DQT     &kp SE_SQT       &kp SE_COLON    &kp GRAVE  &kp C_PREV    &kp C_PP    &kp C_NEXT    &kp DEL         &none
+&none  &kp ESC         &kp SE_AT     &kp SE_A_RING  &kp SE_A_UMLAUT  &kp SE_PIPE     &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT     &kp RIGHT       &none
+&none  &kp LEFT_SHIFT  &kp SE_AT     &kp SE_AMPS    &kp SE_EXCL      &kp SE_SEMI     &kp TILDE  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &cm RSHFT BSLH  &none
+                                     &trans         &trans           &trans          &trans     &trans        &trans
             >;
         };
 
