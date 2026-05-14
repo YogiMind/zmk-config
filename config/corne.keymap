@@ -187,7 +187,7 @@
         number_layer {
             bindings = <
 &none  &kp SE_QMARK      &kp SE_SLASH         &kp SE_LEFT_PARENTHESIS  &kp SE_RIGHT_PARENTHESIS  &kp PRCNT        &kp SE_PLUS   &kp SE_N7  &kp SE_N8  &kp SE_N9  &kp BSPC           &none
-&none  &kp SE_HASH       &kp SE_ASTRK         &kp LC(SE_LEFT_BRACKET)  &kp SE_RIGHT_BRACKET      &kp SE_DOLLAR    &kp SE_EQUAL  &kp SE_N4  &kp SE_N5  &kp SE_N6  &kp SE_N0          &none
+&none  &kp SE_HASH       &kp SE_ASTRK         &kp SE_LEFT_BRACKET      &kp SE_RIGHT_BRACKET      &kp SE_DOLLAR    &kp SE_EQUAL  &kp SE_N4  &kp SE_N5  &kp SE_N6  &kp SE_N0          &none
 &none  &kp SE_LESS_THAN  &kp SE_GREATER_THAN  &kp SE_LEFT_BRACE        &kp SE_RIGHT_BRACE        &mo 3            &kp SE_TILDE  &kp SE_N1  &kp SE_N2  &kp SE_N3  &kp SE_UNDERSCORE  &none
                                               &trans                   &trans                    &trans           &trans        &trans     &trans
             >;
