@@ -177,10 +177,10 @@
 
         default_layer {
             bindings = <
-&none  &kp SE_Q               &kp SE_W  &kp SE_E      &kp SE_R             &kp SE_T        &kp SE_Y   &kp SE_U             &kp SE_I        &kp SE_O    &kp SE_P         &none
-&none  &kp SE_A               &kp SE_S  &kp SE_D      &HMShftR LCTRL SE_F  &kp SE_G        &kp SE_H   &HMShftR LCTRL SE_J  &kp SE_K        &kp SE_L    &kp SE_O_UMLAUT  &none
-&none  &HMShiftL LSHIFT SE_Z  &kp SE_X  &kp SE_C      &kp SE_V             &kp SE_B        &kp SE_N   &kp SE_M             &kp SE_COMMA    &kp SE_DOT  &kp SE_MINUS     &none
-                                        &kp LEFT_WIN  &kp LEFT_ALT         &kp SE_SPACE    &lt 2 TAB  &lt 1 ENTER          &kp LEFT_SHIFT
+&none  &kp SE_Q              &kp SE_W  &kp SE_E      &kp SE_R             &kp SE_T        &kp SE_Y     &kp SE_U             &kp SE_I      &kp SE_O    &kp SE_P         &none
+&none  &kp SE_A              &kp SE_S  &kp SE_D      &HMShftR LSHFT SE_F  &kp SE_G        &kp SE_H     &HMShftR LSHFT SE_J  &kp SE_K      &kp SE_L    &kp SE_O_UMLAUT  &none
+&none  &HMShiftL LCTRL SE_Z  &kp SE_X  &kp SE_C      &kp SE_V             &kp SE_B        &kp SE_N     &kp SE_M             &kp SE_COMMA  &kp SE_DOT  &kp SE_MINUS     &none
+                                       &kp LEFT_WIN  &kp LEFT_ALT         &kp SE_SPACE    &lt 2 ENTER  &lt 1 TAB            &kp LCTRL
             >;
         };
 
@@ -188,26 +188,26 @@
             bindings = <
 &none  &kp SE_QMARK      &kp SE_SLASH         &kp SE_LEFT_PARENTHESIS  &kp SE_RIGHT_PARENTHESIS  &kp PRCNT        &kp SE_PLUS   &kp SE_N7  &kp SE_N8  &kp SE_N9  &kp BSPC           &none
 &none  &kp SE_HASH       &kp SE_ASTRK         &kp SE_LEFT_BRACKET      &kp SE_RIGHT_BRACKET      &kp SE_DOLLAR    &kp SE_EQUAL  &kp SE_N4  &kp SE_N5  &kp SE_N6  &kp SE_N0          &none
-&none  &kp SE_LESS_THAN  &kp SE_GREATER_THAN  &kp SE_LEFT_BRACE        &kp SE_RIGHT_BRACE        &mo 3            &kp SE_TILDE  &kp SE_N1  &kp SE_N2  &kp SE_N3  &kp SE_UNDERSCORE  &none
+&none  &kp SE_LESS_THAN  &kp SE_GREATER_THAN  &kp SE_LEFT_BRACE        &kp SE_RIGHT_BRACE        &mo 3            &kp SE_CARET  &kp SE_N1  &kp SE_N2  &kp SE_N3  &kp SE_UNDERSCORE  &none
                                               &trans                   &trans                    &trans           &trans        &trans     &trans
             >;
         };
 
         symbol_layer {
             bindings = <
-&none  &kp SE_GRAVE    &kp SE_ACUTE  &kp SE_DQT     &kp SE_SQT       &kp SE_COLON    &kp GRAVE  &kp C_PREV    &kp C_PP    &kp C_NEXT    &kp DEL         &none
-&none  &kp ESC         &kp SE_AT     &kp SE_A_RING  &kp SE_A_UMLAUT  &kp SE_PIPE     &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT     &kp RIGHT       &none
-&none  &kp LEFT_SHIFT  &kp SE_AT     &kp SE_AMPS    &kp SE_EXCL      &kp SE_SEMI     &kp TILDE  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &cm RSHFT BSLH  &none
-                                     &trans         &trans           &trans          &trans     &trans        &trans
+&none  &kp SE_GRAVE    &kp SE_ACUTE  &kp SE_DQT     &kp SE_SQT       &none           &kp C_STOP    &kp C_PREV    &kp C_PP    &kp C_NEXT    &kp DEL            &none
+&none  &kp ESC         &kp SE_AT     &kp SE_A_RING  &kp SE_A_UMLAUT  &kp SE_COLON    &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT     &kp RIGHT          &none
+&none  &kp LEFT_SHIFT  &kp SE_PIPE   &kp SE_AMPS    &kp SE_EXCL      &kp SE_SEMI     &kp SE_TILDE  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &cm RSHFT SE_BSLH  &none
+                                     &trans         &trans           &trans          &trans        &trans        &trans
             >;
         };
 
         function_layer {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none   &none   &none   &to 0    &none
-&none  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp 6   &kp F7  &kp F8  &kp F9  &kp F10  &none
-&none  &kp F11       &none         &bt BT_CLR    &bootloader   &none           &none   &none   &none   &none   &kp F12  &none
-                                   &trans        &trans        &trans          &trans  &trans  &trans
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none   &kp F7  &kp F8  &kp F9  &to 0    &none
+&none  &none         &none         &none         &none         &kp SE_SECTION    &none   &kp F4  &kp F5  &kp F6  &kp F10  &none
+&none  &kp F11       &none         &bt BT_CLR    &bootloader   &none             &none   &kp F1  &kp F2  &kp F3  &kp F12  &none
+                                   &trans        &trans        &trans            &trans  &trans  &trans
             >;
         };
     };
